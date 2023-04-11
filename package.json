@@ -2,7 +2,7 @@
   "name": "node",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "nodemon app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "express": "^4.18.2",
     "mongodb": "^5.1.0",
-    "mongoose": "^7.0.0"
+    "mongoose": "^7.0.0",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
