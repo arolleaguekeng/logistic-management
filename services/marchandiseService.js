@@ -7,7 +7,7 @@ exports.addMarchandise = async (marchandise) =>{
     return await MarchandiseModel.create(marchandise)
 }
 
-exports.getAllMarchandise = async () =>{
+exports.getAllMarchandises = async () =>{
     return MarchandiseModel.find()
 }
 
